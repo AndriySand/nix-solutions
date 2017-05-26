@@ -8,6 +8,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'therubyracer', platforms: :ruby
 gem 'execjs'
 gem 'sidekiq'
+gem 'jbuilder', '~> 2.0'
+gem 'will_paginate-bootstrap'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

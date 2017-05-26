@@ -1,0 +1,13 @@
+<div class="page-header">
+  <h1>Post</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong>Title:</strong></dt>
+  <dd><%= @post.title %></dd>
+  <dt><strong>Content:</strong></dt>
+  <dd><%= @post.body %></dd>
+  <dt><strong>Author:</strong></dt>
+  <dd><%= @post.author %></dd>
+</dl>
+<%= link_to 'Back', posts_path, class: 'btn btn-default' %>
